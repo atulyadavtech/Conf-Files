@@ -1,5 +1,5 @@
 ######History Mgmt ##############
-export HISTSIZE=10000
+export HISTSIZE=1000000000000 #For CentOS/RHEL
 export HISTCONTROL=erasedups
 export HISTTIMEFORMAT='%F %T	'
 shopt -s histappend
