@@ -1,0 +1,18 @@
+##mkdir -p /altair/os/rhel7.9/media1/
+[OS]
+name=rhel7.9-media1
+baseurl=file:///altair/os/rhel7.9/media1
+enabled=1
+gpgcheck=0
+
+[HA]
+name=rhel7.9-media1-HighAvailability
+baseurl=file:///altair/os/rhel7.9/media1/addons/HighAvailability
+enabled=1
+gpgcheck=0
+
+[RS]
+name=rhel7.9-media1-HighAvailability
+baseurl=file:///altair/os/rhel7.9/media1/addons/ResilientStorage
+enabled=1
+gpgcheck=0
