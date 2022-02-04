@@ -20,6 +20,5 @@ gpgcheck=0
 [OS2]
 name=rhel7.9-media2
 baseurl=file:///altair/os/rhel7.9/media2
-enabled=1
+enabled=0
 gpgcheck=0
-
